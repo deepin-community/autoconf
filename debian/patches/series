@@ -3,4 +3,5 @@
 
 # integrated upstream:
 #stricter-versioning.patch
-Add-sunway-support.patch
+
+#fix-cxx-stdcxx-test.diff
