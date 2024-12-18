@@ -1,14 +1,34 @@
-autoconf (2.71.1-1+deepin) UNRELEASED; urgency=medium
+autoconf (2.72-3) unstable; urgency=medium
 
-  * update
+  * Upload to unstable.
+  * Bump standards version to 4.7.0.
 
- -- Debian QA Group <packages@qa.debian.org>  Thu, 28 Jul 2022 10:41:12 +0800
+ -- Alex Myczko <tar@debian.org>  Fri, 16 Aug 2024 13:17:28 +0000
 
-autoconf (2.71.1-1+deepin) unstable; urgency=medium
+autoconf (2.72-2) experimental; urgency=medium
 
-  * Add sunway support.
+  * Drop debian/NEWS. Thanks Sven Joachim for the patch. (Closes: #982626)
+  * d/control: add Vcs fields.
+  * d/copyright: add myself to debian/ part.
+  * d/rules.old: removed.
+  * Adopt package. (Closes: #977331)
 
- -- Miao Changwei <miaochangwei@uniontech.com>  Mon, 18 Apr 2022 02:20:33 +0800
+ -- Gürkan Myczko <tar@debian.org>  Sun, 17 Mar 2024 23:51:12 +0100
+
+autoconf (2.72-1) experimental; urgency=medium
+
+  * New upstream version.
+  * d/control: add myself as co-maintainer.
+
+ -- Gürkan Myczko <tar@debian.org>  Fri, 15 Mar 2024 15:13:18 +0100
+
+autoconf (2.71-3) unstable; urgency=medium
+
+  * QA upload.
+  * Fix the _AC_PROG_CXX_STDCXX_EDITION_TRY test. Closes: #1016728.
+  * Bump standards version.
+
+ -- Matthias Klose <doko@debian.org>  Sat, 14 Jan 2023 18:42:30 +0100
 
 autoconf (2.71-2) unstable; urgency=medium
 

@@ -286,6 +286,7 @@ Files: debian/*
 Copyright:
  1997-2012 Ben Pfaff <pfaffben@debian.org>
  2009, 2010 Russ Allbery <rra@debian.org>
+ 2024 Alex Myczko <tar@debian.org>
 License: other
  The authors hereby relinquish any claim to any copyright that they may
  have in this work, whether granted under contract or by operation of law
